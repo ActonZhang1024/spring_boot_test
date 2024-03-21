@@ -1,0 +1,13 @@
+spring:
+  #数据源
+  datasource:
+    url: jdbc:mysql://sh-cynosdbmysql-grp-3nt28ij8.sql.tencentcdb.com:29749/demo
+    username: root
+    password: 15043577079zcL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#mybatis配置
+mybatis:
+  typeAliasesPackage: pers.zhang.entity
+  mapperLocations: classpath:mapper/*.xml
+  #configLocation: classpath:/mybatis-config.xml
+
